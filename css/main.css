@@ -69,7 +69,6 @@ li.selected  a {
   -moz-background-clip: padding-box;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
-  padding-left: 1000px;
   text-align: center;
   width: 800px;
   margin: auto;
