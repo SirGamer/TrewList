@@ -61,8 +61,6 @@ li.selected  a {
   position: relative;
   z-index: 10;
   position: absolute;
-  top: 60px;
-  left: 50%;
   background: url(../img/floatbox_bg.png);
   border: 3px solid #009999;
   -webkit-border-radius: 7px;
