@@ -71,5 +71,6 @@ li.selected  a {
   background-clip: padding-box;
   text-align: center;
   width: 800px;
-  margin: auto;
+  margin-left: auto ;
+  margin-right: auto ;
 }
