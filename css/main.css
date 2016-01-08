@@ -58,7 +58,6 @@ li.selected  a {
 }
 
 .content {
-  position: relative;
   z-index: 10;
   position: absolute;
   background: url(../img/floatbox_bg.png);
