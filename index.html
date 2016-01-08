@@ -1,195 +1,40 @@
+
 <!DOCTYPE html>
-<!--[if lt IE 7]>
-<html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
-<!--[if IE 7]>
-<html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
-<!--[if IE 8]>
-<html class="no-js lt-ie9" lang="en"> <![endif]-->
-<!--[if gt IE 8]><!-->
-<html class="no-js" lang="en"> <!--<![endif]-->
-<head>
-    <meta charset="utf-8">
+<html>
+
+  <head>
+    <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+	<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="css/style.css"> <!-- Gem style -->
+	<script src="js/modernizr.js"></script>
     <title>TrewList</title>
+  </head>
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-    <script type="text/javascript" src="js/modernizr.js"></script>
-</head>
-<body>
-<div class="preloader" id="preloader">
-    <div class="intro-text">Please wait</div>
-</div>
-<div class="content-container" id="content-container" style="display:none;">
-    <!-- SCENERY START -->
-    <div class="scenery">
-        <div class="clouds" id="clouds"></div>
-        <div class="mountains mountains3">
-            <div class="mountains mountains2">
-                <div class="mountains mountains1">
-                    <div class="beast beast_small" id="beast_small"></div>
-                    <div class="grass1">
-                        <div class="beast beast_big" id="beast_big"></div>
-                        <div class="bushes">
-                            <div class="bush1">
-                                <div class="bush2"></div>
-                            </div>
-                            <div class="grass2"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- FLOATBOX START -->
-        <div class="floatbox" id="floatbox">
-            <h1 class="intro_message">TrewList</h1>
-            <!-- Header Content / Intro Area Start -->
-            <p>The truely ultimate Minecraft: Pocket Edition Server List.</p>
-            <p>View the top 'MCPE' servers here, or post your own!</p>
-            <!-- Header Content / Intro Area Start  END -->
-            <!-- SOCIAL START -->
-<!--             <section class="social">
-                <p><span class="follow-text">Follow us</span>
-                    <a href="https://twitter.com/PwegoCinema" class="twitter social-link"></a>
-                    <a href="http://facebook.com/" class="facebook social-link"></a>
-                    <a href="http://www.youtube.com/user/PwegoCinema" class="youtube social-link"></a>
-                    <a href="http://www.planetminecraft.com" class="pmc social-link"></a>
-                    <a href="#" class="amazon social-link"></a>
-                    <a href="#" class="android social-link"></a>
-                    <a href="#" class="apple social-link"></a>
-                    <a href="#" class="appstore social-link"></a>
-                    <a href="#" class="behance social-link"></a>
-                    <a href="#" class="blogger social-link"></a>
-                    <a href="#" class="delicious social-link"></a>
-                    <a href="#" class="deviantart social-link"></a>
-                    <a href="#" class="digg social-link"></a>
-                    <a href="#" class="dribbble social-link"></a>
-                    <a href="#" class="dropbox social-link"></a>
-                    <a href="#" class="ebay social-link"></a>
-                    <a href="#" class="facebook social-link"></a>
-                    <a href="#" class="flickr social-link"></a>
-                    <a href="#" class="forrst social-link"></a>
-                    <a href="#" class="google social-link"></a>
-                    <a href="#" class="googledisc social-link"></a>
-                    <a href="#" class="googleplus social-link"></a>
-                    <a href="#" class="hotmail social-link"></a>
-                    <a href="#" class="html5 social-link"></a>
-                    <a href="#" class="instagram social-link"></a>
-                    <a href="#" class="lastfm social-link"></a>
-                    <a href="#" class="linkedin social-link"></a>
-                    <a href="#" class="myspace social-link"></a>
-                    <a href="#" class="paypal social-link"></a>
-                    <a href="#" class="picasa social-link"></a>
-                    <a href="#" class="pinterest social-link"></a>
-                    <a href="#" class="rss social-link"></a>
-                    <a href="#" class="skype social-link"></a>
-                    <a href="#" class="soundcloud social-link"></a>
-                    <a href="#" class="stumbleupon social-link"></a>
-                    <a href="#" class="technorati social-link"></a>
-                    <a href="#" class="tumblr social-link"></a>
-                    <a href="#" class="twitter social-link"></a>
-                    <a href="#" class="vimeo social-link"></a>
-                    <a href="#" class="windows social-link"></a>
-                    <a href="#" class="wordpress social-link"></a>
-                    <a href="#" class="yahoo social-link"></a><br>
-					<a href="#" class="youtube social-link"></a> -->
-                </p>
-            </section>
-            <!-- SOCIAL START -->
-        </div>
-        <!-- FLOATBOX END -->
+  <body>
+    <div class="nav">
+      <div class="container">
+        <ul class="pull-left">
+          <li class="selected"><a>TrewList</a></li>
+        </ul>
+        <ul class="pull-right">
+			<li><a class="cd-signin" href="#0">Sign in</a></li>
+			<li><a class="cd-signup" href="#0">Sign up</a></li>
+			<li><a href="#">Help</a></li>
+		</ul>
+      </div>
     </div>
-    <!-- SCENERY END -->
 
-    <!-- CONTENT START -->
-    <section class="content-area" id="content-area">
-        <div class="container">
-            <div class="row">
-                <!-- COLUMN 1 START (ABOUT US) -->
-                <section class="span8 content-section"><h2 class="section-title">Top Servers</h2>
-				<!------------------------------------------------------------------------------------------------------------------------- 
-                You can place ANY text or additional code in this section, this section of the website will hold the main content you wish
-                to share with your users. I Personally suggest leaving it as a NEWS section, you can add links, small images and more to 
-                this section, just make sure it looks okay when you publish and doesnt mess up the website template.
-                -------------------------------------------------------------------------------------------------------------------------->
-                    <p><h3><a href="/serverlist/avengetech"><br>AvengeTech</h3></a></p>
-
-                    <p>Avenge tech is a fantastic minigames server created and manged by XFuryMCPE.</p>
-                    <p><h4>PE.AT-FAC.NET:19132</h4></p>
-                    <hr>
-                    <p><h4>Another Server</h3></p>
-
-                    <p>Some text about the other server.</p>
-                    <hr>
-                    <p><h4>Yet Another Server</h3></p>
-					
-                    <p>Some text about this server.</p>
-                </section>
-                <!-- COLUMN 1 END (ABOUT US)-->
-
-
-                <!-- COLUMN 2 START (SCREENSHOTS) -->
-                <section class="span4 content-section"><h2 class="section-title">Menu</h2>
-                    <div class="thumbnails-holder">
-                        <!-- THUMBS START -->
-                        <div class="thumb" title="Go Home">
-                            <h3><a href="index.html">Home</a></h3>
-                        </div>
-                        <div class="thumb" title="Login / Register">
-                            <h3><a href="account/">Account</a></h3>
-                        </div>
-                        <div class="thumb" title="Item3 Desc">
-                            <h3><a href="#">Item3</a></h3>
-                        </div>
-                        <div class="thumb" title="Item4 Desc">
-                            <h3><a href="#">Item4</a></h3>
-                        </div>
-                        <div class="thumb" title="Item5 Desc">
-                            <h3><a href="#">Item5</a></h3>
-                        </div>
-                        <div class="thumb" title="Item6 Desc">
-                            <h3><a href="#">Item6</a></h3>
-                        </div>
-                        <!-- THUMBS END -->
-                    </div><!-- .thumbnails-holder -->
-                    <h2 class="section-title">Featured Servers</h2>
-                    
-                </section>
-                <!-- COLUMN 2 END (SCREENSHOTS) -->
-            </div>
-            <!-- .row -->
-        </div>
-        <!-- .container -->
-    </section>
-    <!-- CONTENT END-->
-    <!-- FOOTER START -->
-    <footer class="page-footer">
-        <div class="footer-top-bg"></div>
-        <div class="footer-content-wrapper">
-        <!----------------------------------------------------------------------------------- 
-        To use this Template you NEED TO KEEP the Designed By sycoinc link in the footer.
-        Without this in the footer i ask you do not use this template UNLESS HEAVILY EDITED.
-        Since this is a free Template this is all i ask when you use this.
-        ------------------------------------------------------------------------------------>
-            <div class="footer-content">
-                <!-- FOOTER CONTENT START -->
-                TrewList &copy; 2015 - <a href="http://creativecommons.org/licenses/by-nc-nd/4.0/">License</a>
-                <!-- FOOTER CONTENT END -->
-            </div>
-        </div>
-    </footer>
-    <!-- FOOTER END -->
-    <!-- SCRIPTS AND TECHICAL STUFF -->
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
-    <script src="js/jquery.countdown.min.js"></script>
-    <script src="js/jquery.backgroundpos.min.js"></script>
-    <script src="js/jquery.tweet.js"></script>
-    <script src="js/jquery.prettyPhoto.js"></script>
-    <script src="js/script.js"></script>
-    <div id="fake_timer" style="display:none"></div>
-    <div class="pattern"></div>
-</div>
-<!-- .content-container -->
-</body>
+	<div class="jumbotron">
+		<h1>TrewList</h1>
+		<p>The Ultimate MCPE Server Listing Site</p>
+	</div>
+	<div class="content">
+		<h1>Top Servers</h1>
+	</div>
+  </body>
 </html>
