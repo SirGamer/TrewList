@@ -75,5 +75,5 @@ li.selected  a {
   position: absolute;
   top: 50%;
   left: 50%;
-  margin-left: -400em;
+  margin-left: -400px;
 }
