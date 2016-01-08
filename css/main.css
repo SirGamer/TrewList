@@ -56,4 +56,6 @@ li.selected  a {
 .content p {
   text-align: center;
   border: 3px solid #009999;
+  padding-left: 200px;
+  padding-right: 200px;
 }
